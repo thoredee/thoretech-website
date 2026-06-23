@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &mdash; Thoretech</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <nav class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="images/icon.png" alt="Thoretech">
+      <span class="nav-logo-text"><span class="thore">thore</span><span class="tech">tech</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="small-business.html" class="nav-link">Small business</a>
+      <a href="enterprise.html" class="nav-link">Enterprise</a>
+      <a href="about.html" class="nav-link">Why us</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="nav-cta-wrap">
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="contact-hero">
+  <div class="container hero-grid">
+
+    <div>
+      <div class="eyebrow">Get in touch</div>
+      <h1>Tell us what is slowing you down.</h1>
+      <p>Whether you are a small business with a tech headache or an organisation looking for contract expertise, the starting point is the same. One honest conversation.</p>
+      <div class="caveat">no commitment, no pressure</div>
+
+      <div class="contact-options">
+        <a href="tel:07879551690" class="contact-option">
+          <div class="contact-option-icon call">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+          </div>
+          <div>
+            <div class="contact-option-label">Call us</div>
+            <div class="contact-option-value">07879 551690</div>
+          </div>
+        </a>
+
+        <a href="mailto:thorespdonner@gmail.com" class="contact-option">
+          <div class="contact-option-icon email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </div>
+          <div>
+            <div class="contact-option-label">Email us</div>
+            <div class="contact-option-value email-val">thorespdonner@gmail.com</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- THANK YOU -->
+    <div class="thankyou-card hidden">
+      <div class="thankyou-tick">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </div>
+      <h2>Message sent. We will be in touch.</h2>
+      <p>We aim to respond within one working day. No chasing needed on your part.</p>
+      <div class="caveat">thanks for reaching out</div>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-panel">
+      <div class="contact-panel-label">Send a message</div>
+
+      <div class="form-fields">
+
+        <div class="form-group">
+          <label for="cf-name">Your name</label>
+          <input type="text" id="cf-name" class="form-control" placeholder="How should we address you?">
+        </div>
+
+        <div class="form-group">
+          <label>Best way to reach you</label>
+          <div class="contact-pref-toggle">
+            <button type="button" class="toggle-btn active" data-pref="email">Email</button>
+            <button type="button" class="toggle-btn" data-pref="phone">Phone</button>
+          </div>
+          <input type="text" id="cf-contact-value" class="form-control" placeholder="your@email.com">
+          <div class="contact-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="cf-message">Your message</label>
+          <textarea id="cf-message" class="form-control" rows="6" placeholder="Tell us what you are working on or what is causing the headache. No need to have it all figured out."></textarea>
+        </div>
+
+      </div>
+
+      <button type="button" class="send-btn">Send message &rarr;</button>
+
+      <div class="send-note">We aim to respond within one working day.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="footer-logo">
+        <img src="images/icon.png" alt="">
+        <span class="footer-logo-text"><span class="thore">thore</span><span class="tech">tech</span></span>
+      </a>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="small-business.html" class="footer-link">Small business</a>
+        <a href="enterprise.html" class="footer-link">Enterprise</a>
+        <a href="about.html" class="footer-link">Why us</a>
+        <a href="contact.html" class="footer-link active">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">&copy; 2026 Thoretech Ltd. Registered in England and Wales.</div>
+      <div class="footer-tagline">warm tech, made by humans</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

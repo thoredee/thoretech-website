@@ -1,49 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thoretech</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thoretech &mdash; AI and tech that gives you time back</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="logo">Thoretech</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
+
+<header class="site-nav">
+  <nav class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="images/icon.png" alt="Thoretech">
+      <span class="nav-logo-text"><span class="thore">thore</span><span class="tech">tech</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="small-business.html" class="nav-link">Small business</a>
+      <a href="enterprise.html" class="nav-link">Enterprise</a>
+      <a href="about.html" class="nav-link">Why us</a>
     </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h2>Welcome to Thoretech</h2>
-        <p>This site is under construction. Check back soon.</p>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container">
-        <h2>About</h2>
-        <p>Add company description here.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>Add contact details here.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Thoretech. All rights reserved.</p>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="nav-cta-wrap">
+      <a href="contact.html" class="btn btn-nav">Get in touch</a>
     </div>
-  </footer>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero-home">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge-pill">
+        <span class="badge-dot"></span>
+        AI and tech &middot; Creative problem solving
+      </div>
+      <h1>AI and tech that <span class="highlight-sage">gives you time back</span>.</h1>
+      <p class="body-lead">We find what is slowing you down and use AI and creative tech to clear it. Simple, low cost, built around what you already have. So you can focus on the work you love.</p>
+      <div class="hero-ctas">
+        <a href="small-business.html" class="btn btn-primary">For your business &rarr;</a>
+        <a href="enterprise.html" class="btn btn-secondary">Enterprise projects &rarr;</a>
+      </div>
+      <div class="caveat hero-accent">creative problem solving, made human</div>
+    </div>
+
+    <div class="carousel">
+      <img src="images/carpenter.jpg" alt="Carpenter at work" class="photo-warm">
+      <img src="images/florist.jpg" alt="Florist with customer" class="photo-warm">
+      <img src="images/teacher.jpg" alt="Teacher with children" class="photo-warm">
+      <div class="carousel-scrim"></div>
+      <div class="carousel-caption">
+        <div class="carousel-caption-text">Focus on what you love.</div>
+      </div>
+      <div class="carousel-caption">
+        <div class="carousel-caption-text">Time back with your customers.</div>
+      </div>
+      <div class="carousel-caption">
+        <div class="carousel-caption-text">Back to the people you care for.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TWO PATHS -->
+<section class="two-paths">
+  <div class="container">
+    <div class="eyebrow">Who we work with</div>
+    <h2>Pick your path</h2>
+    <div class="paths-grid">
+
+      <a href="small-business.html" class="path-card light">
+        <div class="path-bar" style="background: #946B3F;"></div>
+        <div class="path-label" style="color: #6F7A3C;">Sole traders to 50 staff</div>
+        <h3>Small businesses</h3>
+        <p style="color: #5b5d56;">We use AI and technology to save you hours every week. We find what is slowing you down and fix it simply, without the complexity or the big price tag.</p>
+        <div class="path-cta" style="color: #946B3F;">See services &rarr;</div>
+      </a>
+
+      <a href="enterprise.html" class="path-card dark">
+        <div class="path-bar" style="background: #B7975B;"></div>
+        <div class="path-label" style="color: #CFCE9C;">50 to 500+ staff</div>
+        <h3 style="color: #F4F0E5;">Enterprise contracts</h3>
+        <p style="color: #c5cdc7;">20+ years of senior corporate delivery, applied to your problem. We work through complex challenges and deliver the solution, whether that means consulting, delivery or both.</p>
+        <div class="path-cta" style="color: #B7975B;">See engagement model &rarr;</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- TIME AUDIT -->
+<section class="time-audit">
+  <div class="container time-audit-grid">
+
+    <div class="audit-card">
+      <div class="audit-label">Where is your time going?</div>
+      <div>
+        <div class="audit-stat">68<span>%</span></div>
+        <div class="audit-stat-caption">of your week goes on running the business, not growing it</div>
+      </div>
+
+      <div class="split-bar">
+        <div class="split-bar-track">
+          <div class="split-bar-fill"></div>
+          <div class="split-bar-rest"></div>
+        </div>
+        <div class="split-bar-labels">
+          <div class="running">Running it</div>
+          <div class="growing">Growing it &middot; 32%</div>
+        </div>
+      </div>
+
+      <div class="audit-tiles">
+        <div class="audit-tile" data-popup="admin">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B7975B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
+          <div class="audit-tile-label">Financial admin</div>
+        </div>
+        <div class="audit-tile" data-popup="paperwork">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B7975B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          <div class="audit-tile-label">Paperwork drag</div>
+        </div>
+        <div class="audit-tile" data-popup="emails">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B7975B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div class="audit-tile-label">Emails and noise</div>
+        </div>
+        <div class="audit-tile" data-popup="process">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B7975B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <div class="audit-tile-label">Process speed</div>
+        </div>
+      </div>
+
+      <div class="audit-footer">
+        <div class="audit-footer-source">Source: Sage, TAB, Time etc</div>
+        <div class="audit-footer-note">we can fix that</div>
+      </div>
+    </div>
+
+    <div class="time-audit-copy">
+      <div class="eyebrow">What we do about it</div>
+      <h2>Stop losing hours to things that should run themselves.</h2>
+      <p>We find exactly what is eating your time and use AI and smart technology to fix it. Simple changes, low cost, no new software needed. Most clients start saving hours within the first two to four weeks.</p>
+      <a href="small-business.html" class="btn btn-primary">Get your time back &rarr;</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- TOOLTIP -->
+<div class="tooltip">
+  <div class="tooltip-box">
+    <div class="tooltip-bar"></div>
+    <div class="tooltip-title"></div>
+    <p class="tooltip-body"></p>
+    <div class="tooltip-note"></div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <div class="container">
+    <h2>One conversation. That's all it takes.</h2>
+    <p>We find your biggest drag and tell you exactly what to do about it.</p>
+    <div class="hero-ctas">
+      <a href="mailto:hello@thoretech.co.uk" class="btn btn-paper">Book a free chat</a>
+      <a href="enterprise.html" class="btn btn-outline-light">Enterprise enquiry &rarr;</a>
+    </div>
+    <div class="caveat">no commitment needed</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="index.html" class="footer-logo">
+        <img src="images/icon.png" alt="">
+        <span class="footer-logo-text"><span class="thore">thore</span><span class="tech">tech</span></span>
+      </a>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link active">Home</a>
+        <a href="small-business.html" class="footer-link">Small business</a>
+        <a href="enterprise.html" class="footer-link">Enterprise</a>
+        <a href="about.html" class="footer-link">Why us</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">&copy; 2026 Thoretech Ltd. Registered in England and Wales.</div>
+      <div class="footer-tagline">warm tech, made by humans</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
