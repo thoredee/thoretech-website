@@ -6,7 +6,7 @@
 - Source repo: https://github.com/thoredee/thoretech-website
 
 ## Pipeline
-1. Edit files locally in this folder (`C:\Users\thore\OneDrive\thoretech-website\`)
+1. Edit files locally in this folder (`C:\Users\thore\OneDrive\Claude Development\thoretech-website\`)
 2. `git add` / `git commit` / `git push origin main`
 3. Cloudflare Pages watches the `main` branch and auto-redeploys on every push — no manual trigger needed
 
