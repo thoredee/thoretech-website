@@ -18,3 +18,9 @@
 - Replaced placeholder `index.html` / `css/style.css` with the full five-page site: `index.html`, `small-business.html`, `enterprise.html`, `about.html`, `contact.html`
 - Added shared `js/main.js` for nav scroll, hero image carousel, time-audit tooltips, use-case carousel and the contact form
 - All copy carried over verbatim from the design files; mobile breakpoints added at 860px and 480px
+- Fixed broken CTAs: Home's "Book a free chat" and Small Business's two "Book a free chat" buttons plus "Could this be you?" button were linking to `mailto:hello@thoretech.co.uk` instead of routing to `contact.html`
+- Live site confirmed up to date with `main` at every step (checked via curl/WebFetch against https://thoretech-website.pages.dev/)
+
+## Next up
+- Manually click through every page on a phone (or browser dev-tools mobile emulation) to sanity check the carousels, tooltips and hamburger nav, since no headless-browser screenshot tool was available during the build
+- Consider a custom domain (via Cloudflare Pages "Add custom domain")

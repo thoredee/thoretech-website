@@ -26,11 +26,21 @@ Set locally (not global) for this repo only:
 ```
 thoretech-website/
   index.html
+  small-business.html
+  enterprise.html
+  about.html
+  contact.html
   css/
     style.css
+  js/
+    main.js
   images/
+    icon.png, carpenter.jpg, florist.jpg, teacher.jpg,
+    hairdresser2.jpg, office.jpg, hero-visual.png
   docs/
     SETUP.md
     PROGRESS.md
   .gitignore
 ```
+
+Five-page marketing site (Home, Small business, Enterprise, Why us, Contact), built from a designer handoff package. See `docs/PROGRESS.md` for build history. The original handoff files live in `_handoff/` locally for reference only — gitignored, not part of the deployed site.
