@@ -274,7 +274,7 @@
           (pref === 'email' ? 'Email: ' : 'Phone: ') + (contactValue || 'Not provided') + '\n\n' +
           'Message:\n' + (message || 'No message provided')
         );
-        window.location.href = 'mailto:thorespdonner@gmail.com?subject=' + subject + '&body=' + body;
+        window.location.href = 'mailto:info@thoretech.com?subject=' + subject + '&body=' + body;
 
         setTimeout(function () {
           form.classList.add('hidden');

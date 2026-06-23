@@ -24,3 +24,6 @@
 ## Next up
 - Manually click through every page on a phone (or browser dev-tools mobile emulation) to sanity check the carousels, tooltips and hamburger nav, since no headless-browser screenshot tool was available during the build
 - Consider a custom domain (via Cloudflare Pages "Add custom domain")
+
+## 2026-06-23 (later)
+- Updated the contact email from the placeholder `thorespdonner@gmail.com` to `info@thoretech.com` — changed the displayed "Email us" link on `contact.html` and the `mailto:` target the contact form submits to in `js/main.js`
